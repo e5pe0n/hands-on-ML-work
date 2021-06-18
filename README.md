@@ -41,3 +41,14 @@ jupyter contrib nbextension install --user
 # pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 ```
+
+# Matplotlib
+
+Using a darkthema, default font color of graphs is black so it is hard to read them.
+Use lighter styles like below.
+
+```py
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.style.use("Solarize_Light2")
+```
