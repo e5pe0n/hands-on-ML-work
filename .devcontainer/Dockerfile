@@ -30,4 +30,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     # graphviz
     graphviz \
     # proto buf
-    protobuf-compiler
+    protobuf-compiler \
+    # gym
+    libglu1-mesa \
+    xvfb
